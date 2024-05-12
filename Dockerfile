@@ -15,7 +15,7 @@ RUN pip install --upgrade pip && \
     setuptools
 
 # Copy the poetry.lock and pyproject.toml
-COPY pyproject.toml  ./
+COPY pyproject.toml poetry.lock  ./
 
 # disable virtualenv creation
 RUN poetry config virtualenvs.create false

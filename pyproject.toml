@@ -5,11 +5,12 @@ description = ""
 authors = ["Author <raoshun>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.9,<4.0"
 dash = "^2.0.0"
 dash-core-components = "^2.0.0"
 dash-html-components = "^2.0.0"
 dash-renderer = "^1.9.1"
+pandas = "^2.2.2"
 plotly = "^5.0.0"
 werkzeug = "<2.0"
 markupsafe = "<2.0"

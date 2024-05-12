@@ -1,9 +1,13 @@
 # Path: app.py
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html
+# import dash_core_components as dcc
+# import dash_html_components as html
+# import dash_bootstrap_components as dbc
 
 app = dash.Dash(__name__)
+# app = dash.Dash(external_stylesheets=[dbc.themes.FLATLY])
+
 
 app.layout = html.Div(children=[
     html.H1(children='Hello Dash'),
